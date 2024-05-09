@@ -1,0 +1,504 @@
+/* ================================================= */
+/* FIRST MOBILE */
+/* ================================================= */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.list-nav {
+  display: none;
+}
+
+.header-container {
+  display: flex;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  height: 40px;
+  justify-content: space-between;
+}
+
+.logo-google {
+  display: flex;
+  align-items: center;
+}
+
+.logo-google img {
+  height: 25px;
+  width: 25px;
+  margin-left: 14px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.logos-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  margin-right: 20px;
+}
+
+.logos-nav a {
+  height: 20px;
+  width: 20px;
+}
+
+.menu-hamburguesa {
+  margin-right: 14px;
+}
+
+.menu-hamburguesa hr {
+  width: 25px;
+  height: 2px;
+  background-color: #1a73e8;
+  border: none;
+  margin: 6px 0;
+}
+
+.mini-image {
+  display: none;
+}
+
+.product-details {
+  display: flex;
+  margin: 21px 0 16px 23px;
+  align-items: center;
+}
+
+.arrow {
+  margin-right: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.see-detail {
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 400;
+  color: #a4abb0;
+}
+
+.wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-image {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.product-image img {
+  width: 215px;
+  height: 187px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 400;
+  color: #a4abb0;
+}
+
+.title-container h1 {
+  font-size: 25px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #353449;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+}
+
+.title-container hr {
+  height: 1px;
+  background-color: #000000;
+  border: none;
+}
+
+.color-container {
+  display: flex;
+  gap: 11px;
+}
+
+.color {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.celeste {
+  background-color: #9ec6ea;
+}
+
+.beige {
+  background-color: #e6e3df;
+}
+
+.negro {
+  background-color: #4b4b4d;
+}
+
+.gris {
+  background-color: #d2d7da;
+}
+
+.verde {
+  background-color: #dfe5b7;
+}
+
+.rojo {
+  background-color: #e18472;
+}
+
+.shopping-cart {
+  background-color: #f8f9fa;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.shopping-cart h2 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.shopping-cart hr {
+  height: 1px;
+  width: 94%;
+  background-color: #000000;
+  border: none;
+}
+
+.wrapper-cart {
+  margin-top: 19px;
+}
+
+.cantidad {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+.cantidad p {
+  margin-left: 10px;
+}
+.button-cart {
+  display: flex;
+  height: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1a73e8;
+  justify-content: center;
+  align-items: center;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 15px;
+}
+.delivery {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-left: 20px;
+}
+.car {
+  margin-right: 5px;
+}
+
+.delivery p {
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.number-telephone {
+  color: #1a73e8;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin-top: 20px;
+}
+.social-media {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+}
+
+.spain {
+  display: flex;
+  gap: 10px;
+}
+
+.legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal p {
+  font-family: "inter";
+  font-size: 10px;
+  margin: 0;
+  color: #a4abb0;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/* RELOJ */
+
+.smartWatch {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 88px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.smartWatch img {
+  width: 50px;
+  height: 65px;
+}
+
+/* ================================================= */
+/* MEDIA QUERIES */
+/* ================================================= */
+
+/* MAYOR O IGUAL DE 768PX (A PARTIR DE 768PX INCLUSIVE) - SMARTPHONES GRANDES, TABLETS */
+@media only screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+
+  .list-nav {
+    display: flex;
+    list-style: none;
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 12px;
+    gap: 10px;
+    color: #a4abb0;
+    padding-left: 20px;
+  }
+
+  .product-image img {
+    width: 450px;
+    height: 350px;
+  }
+
+  .title-container h1 {
+    font-size: 35px;
+    color: #353449;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: #353449;
+  }
+
+  .cart-container {
+    display: flex;
+  }
+
+  .colors {
+    width: 50%;
+  }
+
+  .shopping-cart {
+    width: 50%;
+  }
+  .wrapper-cart {
+    display: flex;
+    gap: 14px;
+  }
+  .cantidad {
+    margin-bottom: 50px;
+    width: 20%;
+    gap: 10px;
+  }
+  .cantidad p {
+    margin-right: 20px;
+  }
+  .button-cart {
+    width: 75%;
+  }
+  .social-media {
+    margin-left: 30px;
+  }
+  .footer-container {
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+  }
+  .legal {
+    margin-right: 45px;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .spain {
+    flex-direction: row-reverse;
+    order: -1;
+  }
+  .earbuds {
+    color: #1a73e8;
+  }
+
+  .watch {
+    color: #1a73e8;
+  }
+
+  .smartWatch {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 88px;
+    height: 100px;
+  }
+}
+
+/* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
+@media only screen and (min-width: 1400px) {
+  .header-container {
+    height: 80px;
+  }
+  .logos-nav {
+    gap: 45px;
+    margin-right: 45px;
+  }
+
+  .logos-nav img {
+    height: 30px;
+    width: 30px;
+  }
+  .logo-google img {
+    height: 50px;
+    width: 50px;
+  }
+  .list-nav {
+    font-size: 15px;
+  }
+
+  .mini-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .mini-image img {
+    width: 50px;
+    height: 40px;
+  }
+  .wrapper {
+    display: flex;
+    padding: 0 50px;
+  }
+  .total-products {
+    display: flex;
+    width: 80%;
+    height: 50%;
+    margin-right: 15px;
+    gap: 50px;
+  }
+  .second-section {
+    width: 40%;
+  }
+
+  .mini-circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+  }
+  .product-image {
+    width: 80%;
+    padding: 100px 75px;
+  }
+  .cart-container {
+    flex-direction: column;
+    gap: 150px;
+  }
+  .shopping-cart {
+    width: 100%;
+  }
+  .colors {
+    width: 50%;
+  }
+  .title-container h1 {
+    margin-top: 0;
+  }
+  .cantidad {
+    height: 60%;
+  }
+
+  .cantidad p {
+    font-size: 20px;
+  }
+
+  .fa-lg {
+    font-size: 2.2em;
+  }
+
+  .button-cart {
+    padding: 31px;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  .footer-container {
+    margin-top: 50px;
+    justify-content: space-evenly;
+    gap: 300px;
+  }
+
+  .shopping-cart h2 {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .wrapper-cart {
+    margin-left: 20px;
+  }
+
+  .legal {
+    gap: 30px;
+  }
+}
