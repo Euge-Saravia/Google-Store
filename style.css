@@ -91,12 +91,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .product-image img {
   width: 215px;
-  height: 187px;
+  height: 170px;
 }
 
 h3 {
@@ -230,6 +230,7 @@ h2 {
   font-family: "inter";
   font-weight: 700;
   font-size: 12px;
+  color: #5e6871;
 }
 
 .number-telephone {
@@ -246,13 +247,13 @@ h2 {
 .social-media {
   align-items: center;
   display: flex;
-  gap: 18px;
+  gap: 30px;
   margin-top: 8px;
 }
 
 .social-media img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .spain {
@@ -277,9 +278,10 @@ h2 {
 }
 
 /* RELOJ */
+
 .watch-container {
   display: flex;
-  gap: 30px;
+  gap: 45px;
 }
 
 .smartWatch {
@@ -315,6 +317,10 @@ h2 {
   }
   .menu-hamburguesa {
     display: none;
+  }
+
+  .header-container {
+    box-shadow: none;
   }
 
   .list-nav {
@@ -395,7 +401,7 @@ h2 {
     color: #a4abb0;
   }
 
-  a.link-watches:hover{
+  a.link-watches:hover {
     text-decoration: none;
     color: #1a73e8;
   }
@@ -428,26 +434,26 @@ h2 {
     width: 65%;
   }
 
-  a.link-earbuds{
+  a.link-earbuds {
     text-decoration: none;
     color: #a4abb0;
   }
 
-  a.link-earbuds:hover{
+  a.link-earbuds:hover {
     text-decoration: none;
     color: #1a73e8;
   }
 
-  /* a:visited {
-    text-decoration: none;
-    color: #a4abb0;
-  } */
+  br {
+    display: none;
+  }
 }
 
 /* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
 @media only screen and (min-width: 1400px) {
   .header-container {
     height: 80px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .logos-nav {
     gap: 45px;
