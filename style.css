@@ -390,16 +390,17 @@ h2 {
     color: #1a73e8;
   }
 
-  .earbuds a:visited {
+  a.link-watches {
     text-decoration: none;
     color: #a4abb0;
   }
-  /* RELOJ */
-  .link-watches {
-    list-style: none;
-    color: #a4abb0;
+
+  a.link-watches:hover{
+    text-decoration: none;
+    color: #1a73e8;
   }
 
+  /* RELOJ */
   .watch {
     color: #1a73e8;
   }
@@ -427,10 +428,20 @@ h2 {
     width: 65%;
   }
 
-  .link-earbuds a:visited {
+  a.link-earbuds{
     text-decoration: none;
     color: #a4abb0;
   }
+
+  a.link-earbuds:hover{
+    text-decoration: none;
+    color: #1a73e8;
+  }
+
+  /* a:visited {
+    text-decoration: none;
+    color: #a4abb0;
+  } */
 }
 
 /* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
