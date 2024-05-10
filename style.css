@@ -377,6 +377,12 @@ h2 {
   }
   .social-media {
     margin-left: 30px;
+    gap: 20px;
+  }
+
+  .social-media img {
+    height: 15px;
+    width: 15px;
   }
   .footer-container {
     justify-content: space-between;
@@ -450,7 +456,7 @@ h2 {
 }
 
 /* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1024px) {
   .header-container {
     height: 80px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
@@ -472,6 +478,15 @@ h2 {
     font-size: 15px;
   }
 
+  .arrow {
+    width: 15px;
+    height: 15px;
+  }
+
+  .see-detail {
+    font-size: 12px;
+  }
+
   .mini-image {
     display: flex;
     flex-direction: column;
@@ -486,14 +501,14 @@ h2 {
   }
   .wrapper {
     display: flex;
-    padding: 0 50px;
+    padding: 0 20px;
+    gap: 15px;
   }
   .total-products {
     display: flex;
-    width: 80%;
+    width: 65%;
     height: 50%;
-    margin-right: 15px;
-    gap: 50px;
+    gap: 20px;
   }
   .second-section {
     width: 40%;
@@ -510,7 +525,14 @@ h2 {
   }
   .product-image {
     width: 80%;
-    padding: 100px 75px;
+    padding: 75px 0;
+  }
+
+  #container-watch-negro{
+    padding: 70px 50px;
+  }
+  .colors {
+    width: auto;
   }
   .cart-container {
     flex-direction: column;
@@ -519,18 +541,20 @@ h2 {
   .shopping-cart {
     width: 100%;
   }
-  .colors {
-    width: 50%;
-  }
   .title-container h1 {
     margin-top: 0;
   }
   .cantidad {
-    height: 60%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
   }
 
   .cantidad p {
     font-size: 20px;
+    margin: 0;
   }
 
   .fa-lg {
@@ -555,7 +579,8 @@ h2 {
   }
 
   .wrapper-cart {
-    margin-left: 20px;
+    padding: 1rem;
+    margin: 0;
   }
 
   .legal {
@@ -568,5 +593,10 @@ h2 {
   }
   .smartWatch {
     padding: 0 25px;
+  }
+
+  .smartWatch img{
+    width: 55px;
+    height: 65px;
   }
 }
