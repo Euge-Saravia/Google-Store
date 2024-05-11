@@ -312,6 +312,11 @@ h2 {
 
 /* MAYOR O IGUAL DE 768PX (A PARTIR DE 768PX INCLUSIVE) - SMARTPHONES GRANDES, TABLETS */
 @media only screen and (min-width: 768px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
   .nav {
     display: flex;
   }
@@ -412,6 +417,10 @@ h2 {
     color: #1a73e8;
   }
 
+  footer{
+    margin-top: auto;
+  }
+
   /* RELOJ */
   .watch {
     color: #1a73e8;
@@ -457,11 +466,7 @@ h2 {
 
 /* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
 @media only screen and (min-width: 1024px) {
-  body{
-    display: flex;
-    flex-direction: column;
-    height: 100dvh;
-  }
+ 
   .header-container {
     height: 80px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
@@ -592,9 +597,6 @@ h2 {
     gap: 30px;
   }
 
-  footer{
-    margin-top: auto;
-  }
   /*RELOJ*/
   .watch-container {
     flex-wrap: nowrap;
